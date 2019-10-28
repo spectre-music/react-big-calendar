@@ -51,8 +51,7 @@
     "release": "rollout",
     "prepublishOnly": "npm run build",
     "prettier": "prettier '**/*js' !examples/bundle.js '!lib/**' --write ",
-    "precommit": "lint-staged",
-    "install": "yarn install --production=false && yarn run build"
+    "precommit": "lint-staged"
   },
   "lint-staged": {
     "src/**/*.js": "eslint",
